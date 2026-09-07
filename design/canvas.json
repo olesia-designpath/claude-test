@@ -1,0 +1,15 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 230, "w": 390, "h": 844, "title": "A · Masala Market" },
+    { "file": "DirectionB.dc.html", "x": 550, "y": 230, "w": 390, "h": 844, "title": "B · Tiffin" },
+    { "file": "DirectionC.dc.html", "x": 1100, "y": 230, "w": 390, "h": 844, "title": "C · Thali Nights" },
+    { "file": "Logos.dc.html", "x": 0, "y": 1230, "w": 1240, "h": 900, "title": "Logo options" }
+  ],
+  "annotations": [
+    { "id": "note-a", "x": 0, "y": 0, "w": 390, "text": "A · MASALA MARKET\nWarm editorial. The app is a magazine you can eat from: guides, opinions, a voice. Cream paper, chilli red, serif display.\n\nBest if: trust and taste-making win people over.\nTradeoff: someone has to write the guides, every week." },
+    { "id": "note-b", "x": 550, "y": 0, "w": 390, "text": "B · TIFFIN\nUtility first. Map, filters, open-now, distance, route, book. Bright, plain, fast — closest to a tool people open while already hungry.\n\nBest if: growth comes from usefulness, not content.\nTradeoff: least distinctive; competes with Google Maps head-on." },
+    { "id": "note-c", "x": 1100, "y": 0, "w": 390, "text": "C · THALI NIGHTS\nA club, not a directory. Dark, loud, event-led: supper clubs, Diwali nights, a members' board where people ask who has fresh methi.\n\nBest if: community is the moat.\nTradeoff: needs a live community on day one, or it looks empty." },
+    { "id": "note-brief", "x": 0, "y": 1140, "w": 900, "text": "All six marks are flat single-colour vectors and are shown at 44 px — the size they live at as the installed app icon on a home screen." }
+  ],
+  "launch": { "view": "canvas" }
+}
