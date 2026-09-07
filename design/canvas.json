@@ -1,15 +1,20 @@
 {
+  "pages": [
+    { "id": "page-1", "name": "App & brand" },
+    { "id": "page-2", "name": "Earlier explorations" }
+  ],
   "artboards": [
-    { "file": "Main.dc.html", "x": 0, "y": 230, "w": 390, "h": 844, "title": "A · Masala Market" },
-    { "file": "DirectionB.dc.html", "x": 550, "y": 230, "w": 390, "h": 844, "title": "B · Tiffin" },
-    { "file": "DirectionC.dc.html", "x": 1100, "y": 230, "w": 390, "h": 844, "title": "C · Thali Nights" },
-    { "file": "Logos.dc.html", "x": 0, "y": 1230, "w": 1240, "h": 900, "title": "Logo options" }
+    { "file": "Main.dc.html", "x": 0, "y": 210, "w": 390, "h": 844, "title": "Home", "page": "page-1" },
+    { "file": "Detail.dc.html", "x": 550, "y": 210, "w": 390, "h": 844, "title": "Place", "page": "page-1" },
+    { "file": "Brand.dc.html", "x": 1100, "y": 210, "w": 1240, "h": 880, "title": "Brand sheet", "page": "page-1" },
+    { "file": "DirectionB.dc.html", "x": 0, "y": 210, "w": 390, "h": 844, "title": "B · Tiffin", "page": "page-2" },
+    { "file": "DirectionC.dc.html", "x": 550, "y": 210, "w": 390, "h": 844, "title": "C · Thali Nights", "page": "page-2" },
+    { "file": "Logos.dc.html", "x": 0, "y": 1200, "w": 1240, "h": 900, "title": "Logo options", "page": "page-2" }
   ],
   "annotations": [
-    { "id": "note-a", "x": 0, "y": 0, "w": 390, "text": "A · MASALA MARKET\nWarm editorial. The app is a magazine you can eat from: guides, opinions, a voice. Cream paper, chilli red, serif display.\n\nBest if: trust and taste-making win people over.\nTradeoff: someone has to write the guides, every week." },
-    { "id": "note-b", "x": 550, "y": 0, "w": 390, "text": "B · TIFFIN\nUtility first. Map, filters, open-now, distance, route, book. Bright, plain, fast — closest to a tool people open while already hungry.\n\nBest if: growth comes from usefulness, not content.\nTradeoff: least distinctive; competes with Google Maps head-on." },
-    { "id": "note-c", "x": 1100, "y": 0, "w": 390, "text": "C · THALI NIGHTS\nA club, not a directory. Dark, loud, event-led: supper clubs, Diwali nights, a members' board where people ask who has fresh methi.\n\nBest if: community is the moat.\nTradeoff: needs a live community on day one, or it looks empty." },
-    { "id": "note-brief", "x": 0, "y": 1140, "w": 900, "text": "All six marks are flat single-colour vectors and are shown at 44 px — the size they live at as the installed app icon on a home screen." }
+    { "id": "note-app", "x": 0, "y": 0, "w": 940, "page": "page-1", "text": "MINIMAL, BRIGHT, CLEAN — Vienna only\n\nOff-white paper, ink text, and three bright colours doing all the work: marigold = eating out, rose = courses, jade = shops. No shadows, no gradients, hairline dividers, lots of air.\n\nThe one Indian cue is the shape: every tile, avatar and photo block is topped with a temple arch. It carries the culture without a single cliché." },
+    { "id": "note-brand", "x": 1100, "y": 0, "w": 620, "page": "page-1", "text": "Logo 4 developed — horizontal and stacked lockups, one-colour version, app icon down to 44 px, palette and type." },
+    { "id": "note-old", "x": 0, "y": 0, "w": 940, "page": "page-2", "text": "The first-round explorations, kept for reference. B was utility-first, C was community/events-first, and the sheet below held the six logo candidates — option 4 won." }
   ],
-  "launch": { "view": "canvas" }
+  "launch": { "view": "canvas", "page": "page-1" }
 }
